@@ -1,0 +1,93 @@
+/* Sidebar styles */
+.sidebar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* margin-top: 50px; */
+
+  /* align-self: center; */
+
+  /* width: 400px;
+  height: 800px;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+
+  position: fixed;
+  top: 0;
+  left: 0; */
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+/* Highlight the active step */
+.sidebar li .highlight .step-selects {
+  background-color: hsl(229, 24%, 87%);
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.li-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.steps-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 20px;
+}
+.step-selects {
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: solid 2px hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 100%);
+  /* padding: 10px; */
+}
+.step-no {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+}
+
+.step-name-container {
+  display: flex;
+}
+
+.step-selects-name {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .step-selects {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    color: green;
+    /* padding: 10px; */
+  }
+}
+.span{
+  color: hsl(228, 100%, 84%);
+}

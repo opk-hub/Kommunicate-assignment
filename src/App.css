@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* App component styles */
+/* App.css */
+.App {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nav {
+  width: 20%;
+  padding: 20px;
+background-color: hsl(243, 100%, 62%);
+  color: #fff;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.sidebar-item {
+  margin-bottom: 10px;
+}
+
+.sidebar-item.active {
+  font-weight: bold;
+}
+
+/* Add responsive styles for your components in separate CSS files */
+
+/* PersonalInfo.css */
+@media (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+  label {
+    font-size: 14px;
+  }
+  /* Add more responsive styles as needed */
+}
+
+/* SelectPlan.css */
+@media (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+  label {
+    font-size: 14px;
+  }
+  /* Add more responsive styles as needed */
+}
+
+/* AddOns.css */
+@media (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+  label {
+    font-size: 14px;
+  }
+  /* Add more responsive styles as needed */
+}
+
+/* Summary.css */
+@media (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+  label {
+    font-size: 14px;
+  }
+  /* Add more responsive styles as needed */
+}
